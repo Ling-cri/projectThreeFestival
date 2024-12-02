@@ -1,0 +1,223 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    min-height: 100dvh;
+    width:100%;
+    font-family: "ABeeZee", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    border-top:solid 15px #E22426;
+    border-bottom:solid 15px #E22426;
+    
+}
+
+
+img{
+    max-width:100%;
+    display:block;
+}
+
+
+
+nav{
+    font-family: "Agbalumo", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size:2em;
+    padding:1%;
+}
+
+.navContainer{
+    min-width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.navContainer a{
+    text-decoration: none;
+    color:var(--color);
+    position: relative;
+    transition: color 0.3s ease;
+    
+}
+
+.navContainer a::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 5px;
+    background-color: var(--color); 
+    transition: width 0.3s ease-in-out;
+    
+}
+
+.navContainer a:hover::after{
+    width:100%
+}
+
+.navContainer a:hover{
+    color:var(--color);
+}
+
+.navContainer a.active{
+    color:var(--color);
+    cursor:default;
+}
+
+.navContainer a.active::after{
+    content:'';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 5px;
+    background-color: var(--color);
+}
+
+/*section one*/
+.square{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    justify-items: center;
+    margin-top:-4%;
+    padding: 0 20% 3% 20%;
+}
+
+.square img{
+    width:60%;
+}
+
+
+
+h1{
+    font-family: "Agbalumo", serif;
+    font-weight: 400;
+    font-style: normal;
+    color:#E86425;
+    font-size:3em;   
+}
+
+.event{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.event h1{
+    width:50%;
+    text-align: center;
+}
+p{
+    font-size:1em;   
+    line-height: 2;
+    color: #134CA0;
+}
+
+.flex{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    padding: 5% 10%;
+    gap:10%;
+    
+}
+
+.right{
+    width:80%;
+  
+    
+}
+
+h2{
+    font-family: "Agbalumo", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:2em;  
+    color:#134CA0
+}
+
+h3{
+    font-family: "Agbalumo", serif;
+    font-weight: 400;
+    font-style: normal;  
+    color:#134CA0;
+}
+
+.closing{
+    display:grid;
+    grid-template-columns:1fr 2fr;
+    background-color: #FFD544;
+    padding:5% 10%;
+    gap:10%;
+    color:#FFD544;
+}
+
+.left> h2,h3{
+    padding-top: 2%;
+}
+
+.closing p{
+    padding-top: 5%;
+}
+
+
+/*this is footer*/
+.bottomContainer{
+    color:#828282;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1%;
+    font-size:1em;
+}
+
+.leftLogo img{
+    display:block;
+    padding-right:4%;
+}
+
+.list{
+    font-size: 0.85em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+
+
+}
+
+.list > div {
+    padding: 3% 0;
+}
+
+
+.bottomTextRight{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-end;
+    padding: 0 4%;
+    
+}
+.button{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    background-color: #E22426;
+    padding:4% 8%;
+    color:white;
+}
+
+h6{
+    font-weight: 200;
+    padding-top:5%;
+}
+
