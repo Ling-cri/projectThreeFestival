@@ -83,6 +83,13 @@ nav{
 }
 
 /*section one*/
+
+.banner{
+    background-color: #E22426;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .square{
     display:grid;
     grid-template-columns:1fr 1fr 1fr;

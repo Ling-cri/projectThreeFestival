@@ -15,12 +15,7 @@ body{
     
 }
 
-.banner{
-    background-color: #E22426;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 
 img{
     max-width:100%;
@@ -89,6 +84,14 @@ nav{
 }
 
 /*section one*/
+
+.banner{
+    background-color: #E22426;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .square{
     display:grid;
     grid-template-columns:1fr 1fr 1fr;
@@ -152,6 +155,7 @@ h3{
 .left> h2,h4,h3{
     padding-top: 2%;
 }
+
 .fan p{
     color:white;
     padding:5% 0;
@@ -177,6 +181,7 @@ h3{
     color:white;
     padding-top:5%;
 }
+
 /*--------------------*/
 .last{
     background-color: #FFD544;

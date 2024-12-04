@@ -79,6 +79,14 @@ nav{
 }
 
 /*section one*/
+
+.banner{
+    background-color: #E22426;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .square{
     display:grid;
     grid-template-columns:1fr 1fr 1fr;
@@ -106,13 +114,20 @@ h1{
     justify-items: center;
     text-align:center;
     color:#134CA0;
+    padding-bottom: 3%;
+}
+
+.img{
+    background-color: #FFD544;
+    display: grid; 
+    place-items: center;
 }
 
 .food{
     display:flex;
     flex-direction: row;
     justify-items: center;
-    align-items: flex-end;
+    align-items: flex-start;
     padding:5% 10%;
     position:relative;
 }
@@ -131,7 +146,7 @@ p{
 
 .left{
     text-align: left;
-    width:50%;
+    width:40%;
 }
 
 dd h2{
