@@ -93,6 +93,9 @@ nav{
     justify-items: center;
     margin-top:-4%;
     padding: 0 20% 3% 20%;
+    position: sticky;
+    top: 0;
+    z-index: 5;
 }
 
 .square img{
@@ -126,16 +129,17 @@ h1{
 .food{
     display:flex;
     flex-direction: row;
-    justify-items: center;
-    align-items: flex-start;
+    justify-items:flex-end;
+    align-items: center;
     padding:5% 10%;
     position:relative;
 }
 
 .food img{
-    width:25%;
+    width:40%;
     position:absolute;
     right:10%;
+    
 }
 
 p{
