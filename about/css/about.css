@@ -135,7 +135,7 @@ nav{
     
 }
 
-h2{
+.highlightOne{
     color:#E22426;
     font-size: 2.5em;
     
@@ -143,24 +143,24 @@ h2{
 
 
 .tit{
-    width:65%;
     display:flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin:auto;
+    gap:10%;
+    
     
 }
 
 .tit p{
-    font-size: 1.5em;
-    text-align: center;
     padding-top: 2%;
+    /* width:50%; */
 }
 
 p{
     color:#313131;
     line-height: 1.5;
+    font-size: 1.5em;
     
 }
 
