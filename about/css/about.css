@@ -70,6 +70,7 @@ nav{
     padding:1%;
 }
 
+
 .navContainer{
     min-width:100%;
     display: flex;
@@ -234,3 +235,55 @@ h6{
     font-weight: 200;
     padding-top:5%;
 }
+
+@media screen and (max-width: 800px) {
+    .buyTicket{
+        font-size:1.3em;
+        position:fixed;
+        right:5%;
+        z-index: 6;
+        border-bottom-left-radius: 5px; 
+        border-bottom-right-radius: 5px;
+    }
+    .navContainer img{
+        width:30%;
+    }
+    nav{
+        
+        font-size:1.5em;
+        padding-top:5%;
+    }
+    .tit{
+        display:flex;
+        flex-direction: column-reverse;
+
+    }
+    .tit img{
+        width:0;
+
+    }
+
+    .tjcf{
+        display:flex;
+        flex-direction:column;
+    }
+
+   
+    .left{
+        width:100%;
+    }
+    .right p{
+        padding: 10% 0;
+    }
+    .list{
+        font-size: 0.6em;
+    
+    }
+
+    .list > div {
+        padding: 1% 0;
+    }
+    h6{
+        font-size:0.5em;
+    }
+  }

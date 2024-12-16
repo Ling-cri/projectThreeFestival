@@ -123,12 +123,13 @@ nav{
     display:grid;
     grid-template-columns:1fr 1fr 1fr;
     justify-items: center;
-    margin-top:-4%;
+    /* margin-top:-4%; */
     padding: 0 20% 3% 20%;
     position: sticky;
     top: 0;
     z-index: 5;
 }
+
 
 
 .square img{
